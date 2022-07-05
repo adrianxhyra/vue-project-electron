@@ -1,0 +1,5 @@
+provider: github
+private: true
+owner: adrianxhyra
+repo: vue-project-electron
+token: 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
