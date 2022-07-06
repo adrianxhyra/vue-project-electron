@@ -3,7 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "description": "pershkrimi",
-  "author": "adrianxhyra",
+  "author": {
+    "url" : "https://github.com/adrianxhyra/vue-project-electron",
+    "email" : "adrianxhyra1005@gmail.com.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianxhyra/vue-project-electron/"
+  },
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "build": {
+    "productName": "vue-project-electron",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+        "dist/electron/**/*"
+    ],
+    "win": {
+      "icon": "public/favicon.ico",
+      "publish": [
+        "github"
+      ]
+    }
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
