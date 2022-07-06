@@ -7,11 +7,19 @@ module.exports = {
       builderOptions: {
         publish: [
           {
-            provider: 'github',
-            owner: 'adrianxhyra',
-            private: false,
+            provider: "github",
+            owner: "adrianxhyra",
+            repo: "vue-project-electron",
+            releaseType: 'draft'
           }
         ]
+        // publish: [
+        //   {
+        //     provider: 'github',
+        //     owner: 'adrianxhyra',
+        //     private: false,
+        //   }
+        // ]
         // publish: ['github']
       },
       preload: "src/preload.js", // this one
