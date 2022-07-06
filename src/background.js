@@ -33,8 +33,7 @@ async function createWindow() {
     if (!process.env.IS_TEST) win.webContents.openDevTools()
 
     autoUpdater.updateConfigPath = path.join(
-      __dirname,
-      "../dev-app-update.yml" // change path if needed
+      __dirname, "dev-app-update.yml" // change path if needed
     );
 
   } else {
