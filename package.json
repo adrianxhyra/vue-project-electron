@@ -15,21 +15,6 @@
     "provider": "github",
     "releaseType": "release"
   },
-  "build": {
-    "productName": "vue-project-electron",
-    "directories": {
-      "output": "build"
-    },
-    "files": [
-        "dist/electron/**/*"
-    ],
-    "win": {
-      "icon": "public/favicon.ico",
-      "publish": [
-        "github"
-      ]
-    }
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
